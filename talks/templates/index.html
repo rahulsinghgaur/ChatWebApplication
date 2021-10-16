@@ -14,8 +14,10 @@
     </head>
     <!--Coded With Love By Mutiullah Samim-->
     <body>
-
-    <span>{{user}}</span><a href="signout">LOGOUT</a>
+        <div class="wbar">
+            <span>Welcome {{user.first_name}} {{user.last_name}} |
+            <a href="signout"><img src={% static 'logout.png'%} class="user_img"></img></a></span>  
+        </div>
         <div class="container-fluid h-100">
             <div class="row justify-content-center h-100">
                 <div class="col-md-4 col-xl-3 chat"><div class="card mb-sm-3 mb-md-0 contacts_card">
