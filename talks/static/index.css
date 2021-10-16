@@ -260,3 +260,6 @@ margin-bottom: 15px !important;
 	border: none;
 	margin-bottom: 7px;
 }
+#phone{
+	box-sizing: content-box;
+}
