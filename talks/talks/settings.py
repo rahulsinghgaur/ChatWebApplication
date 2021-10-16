@@ -27,7 +27,11 @@ SECRET_KEY = 'django-insecure-blmu&0@o(f6kt8^^m9ywxa_nhi4ttl5sf_@_cqhzw@j@f)m$8l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['127.0.0.1','chatting-setting.herokuapp.com']
+=======
+ALLOWED_HOSTS = ['*']
+>>>>>>> 487c49404e0cc5ccc2b0321cb089717a3db0ebb2
 
 
 # Application definition
