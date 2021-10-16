@@ -16,8 +16,7 @@ import django_heroku
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
-
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
@@ -27,11 +26,8 @@ SECRET_KEY = 'django-insecure-blmu&0@o(f6kt8^^m9ywxa_nhi4ttl5sf_@_cqhzw@j@f)m$8l
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-<<<<<<< HEAD
 ALLOWED_HOSTS = ['127.0.0.1','chatting-setting.herokuapp.com']
-=======
-ALLOWED_HOSTS = ['*']
->>>>>>> 487c49404e0cc5ccc2b0321cb089717a3db0ebb2
+
 
 
 # Application definition
@@ -129,6 +125,9 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     BASE_DIR / "static"
 ]
+
+
+
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
